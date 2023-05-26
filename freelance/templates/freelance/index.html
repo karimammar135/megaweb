@@ -1,10 +1,64 @@
 <!DOCTYPE html>
 
+{% load static %}
+
 <html lang="en">
     <head>
         <title>Megaweb Software</title>
+
+        <!-- Meta -->
+        <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- icon -->
+        <link href="{% static 'freelance/media/megaweb-icon.png' %}" rel="icon">
+
+        <!-- stylesheet -->
+        <link href="{% static 'freelance/index.css' %}" rel="stylesheet">
+
+        <!-- Font awesome -->
+        <script src="https://kit.fontawesome.com/a122ebbd90.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        Welcome to Megaweb Software
+        <!-- main container -->
+        <div class="main_container">
+            <!-- Bg -->
+            <div id="Bg"></div>
+            
+            <!-- header -->
+            <div class="header">
+                <div class="title">
+                    <span class="megaweb">Megaweb</span>
+                    <span class="software">Software</span>
+                </div>
+            </div>
+
+            <!-- Elipse one -->
+            <div class="elipse-1"></div>
+
+            <div style="width: 100%; display: flex; justify-content: center; align-items: center; margin-top: 50px;">
+                <!-- contact us -->
+                <div class="transparet-container">
+                    <span class="text">Our website is under construction</span>
+                    <div class="contact-us">
+                        <span class="head">Contact us:</span>
+                        <a href="#" class="whatsapp">
+                            <i class="fa-brands fa-square-whatsapp"></i>
+                            <span>+96171573122</span>
+                        </a>
+                        <a href="#" class="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span>megawevb_software</span>
+                        </a>
+                        <a href="#" class="facebook">
+                            <i class="fa-brands fa-facebook"></i>
+                            <span>megawevb_software</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- End of main container -->
     </body>
 </html>

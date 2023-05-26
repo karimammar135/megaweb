@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap");
+body {
+  margin: 0;
+}
+
+/* Main container */
+.main_container {
+  background: linear-gradient(185.34deg, #9A98BF 4.92%, #8DAFFF 83.04%, #5CA7FF 99.68%);
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  /* header */
+  /* end of head */
+  /* elipse 1 */
+  /* content */
+  /* End of content */
+}
+.main_container .header {
+  padding: 30px 0 0 35px;
+  /* flexbox */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* title */
+}
+@media (max-width: 400px) {
+  .main_container .header {
+    justify-content: center;
+    padding: 35px 0 0 0;
+  }
+}
+.main_container .header .title {
+  z-index: 1;
+  width: 310px;
+  height: 85px;
+  /* flexbox */
+  display: flex;
+  justify-content: space-between;
+}
+.main_container .header .title .megaweb {
+  width: 142.5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 37px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.main_container .header .title .software {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 37px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  align-self: flex-end;
+}
+@media (max-width: 345px) {
+  .main_container .header .title {
+    width: 100%;
+    justify-content: center;
+  }
+  .main_container .header .title .megaweb {
+    width: 35%;
+  }
+}
+@media (max-width: 320px) {
+  .main_container .header .title .megaweb {
+    width: 30%;
+  }
+}
+.main_container .elipse-1 {
+  width: 102px;
+  height: 102px;
+  background: linear-gradient(180deg, #6f7bbe 0%, #DD4975 100%);
+  border-radius: 50px;
+  position: absolute;
+  top: 50;
+  left: -50px;
+  z-index: 1;
+}
+.main_container .transparet-container {
+  background: rgba(255, 255, 255, 0.38);
+  border-radius: 10px;
+  width: 345px;
+  height: 290px;
+  z-index: 1;
+  /* flexbox */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 420px) {
+  .main_container .transparet-container {
+    width: 100%;
+    margin: 0 25px 0 25px;
+  }
+}
+@media (max-width: 340px) {
+  .main_container .transparet-container {
+    margin: 0 20px 0 20px;
+  }
+}
+.main_container .transparet-container .text {
+  font-size: 15px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  text-align: center;
+  white-space: nowrap;
+}
+@media (max-width: 370px) {
+  .main_container .transparet-container .text {
+    font-size: 13px;
+  }
+}
+@media (max-width: 320px) {
+  .main_container .transparet-container .text {
+    font-size: 12px;
+  }
+}
+.main_container .transparet-container .contact-us {
+  /* flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 160px;
+  width: 85%;
+  margin: 0 10px 0 10px;
+  background-color: #912F5B;
+  border-radius: 10px;
+}
+.main_container .transparet-container .contact-us .head {
+  color: #FFFFFF;
+  font-family: "Mitr", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  margin-left: 10px;
+  margin: 3px 0 0 15px;
+}
+.main_container .transparet-container .contact-us a {
+  margin-left: 20px;
+  text-decoration: none;
+  /* flexbox */
+  display: flex;
+  align-items: center;
+}
+.main_container .transparet-container .contact-us a span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  font-size: 12.5px;
+  letter-spacing: 0.02em;
+  margin-left: 10px;
+}
+.main_container .transparet-container .contact-us a i {
+  font-size: 25px;
+}
+.main_container .transparet-container .contact-us .whatsapp {
+  color: #47B774;
+}
+.main_container .transparet-container .contact-us .instagram {
+  color: #D90000;
+}
+.main_container .transparet-container .contact-us .facebook {
+  color: #2969C9;
+  margin-bottom: 20px;
+}
+
+/* End of main container */
+#Bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url("/static/freelance/media/Bg.png");
+  height: 100%;
+  width: 500px;
+  /* Small screens */
+}
+@media (max-width: 445px) {
+  #Bg {
+    width: 100%;
+    padding-right: 70px;
+  }
+}/*# sourceMappingURL=index.css.map */
